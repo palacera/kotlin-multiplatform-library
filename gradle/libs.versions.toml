@@ -21,7 +21,7 @@ jdk = "17"
 junit = "5.10.1"
 kotlin = "1.9.22"
 ktor = "2.3.8"
-logback = "1.5.0"
+logback = "1.5.2"
 kover = "0.7.4"
 
 [libraries]
