@@ -1,5 +1,5 @@
 [versions]
-android-gradle-plugin = "8.2.2"
+android-gradle-plugin = "8.3.0"
 android-compileSdk = "34"
 android-minSdk = "24"
 android-targetSdk = "34"
@@ -14,7 +14,7 @@ compose = "1.6.3"
 compose-compiler = "1.5.7"
 compose-plugin = "1.6.0"
 detekt = "1.23.5"
-dokka = "1.9.10"
+dokka = "1.9.20"
 ktlint-core = "1.2.1"
 ktlint-gradle = "12.1.0"
 jdk = "17"
@@ -22,7 +22,7 @@ junit = "5.10.1"
 kotlin = "1.9.22"
 ktor = "3.0.0-wasm2"
 logback = "1.5.3"
-kover = "0.7.4"
+kover = "0.7.6"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
