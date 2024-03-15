@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.android.library)
     alias(libs.plugins.dokka)
-    alias(libs.plugins.gradle.ktlint.plugin)
+    alias(libs.plugins.ktlint.gradle)
     alias(libs.plugins.detekt)
     alias(libs.plugins.kover.core)
 }
@@ -41,7 +41,7 @@ android {
 }
 
 ktlint {
-    version.set(libs.versions.gradle.ktlint.core.get())
+    version.set(libs.versions.ktlint.core.get())
 }
 
 detekt {
