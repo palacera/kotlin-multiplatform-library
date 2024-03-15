@@ -20,6 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
+include(":core")
 include("my-library")
 include(":sample:composeApp")
 include(":sample:server")
